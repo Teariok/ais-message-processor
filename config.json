@@ -1,0 +1,6 @@
+{
+    "protocol": "mqtt",
+    "host": "MQTT_SERVER_ADDR",
+    "port": 1883,
+    "client_id": "ais-message-processor"
+}

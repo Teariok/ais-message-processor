@@ -1,0 +1,28 @@
+{
+  "name": "ais-message-processor",
+  "version": "0.0.0",
+  "description": "Node.js app to receive AVIDM sentences via MQTT and republish them as decoded JSON",
+  "keywords": [
+    "ais"
+  ],
+  "homepage": "https://github.com/Teariok/ais-message-processor#readme",
+  "bugs": {
+    "url": "https://github.com/Teariok/ais-message-processor/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Teariok/ais-message-processor.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ais-stream-decoder": "^2.1.2",
+    "mqtt": "^5.10.4"
+  }
+}
